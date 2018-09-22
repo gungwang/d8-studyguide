@@ -1,0 +1,55 @@
+Question pattern
+I can still remember some of the question topics from the exam. Some of these questions touched advanced topics, but most should be within the grasp of a Drupal 8 developer. Here are the ones I can still remember:
+
+[CSS] CSS selector precedence.
+[jQuery] Drupal specific jQuery code sample what will execute only once for each page.
+[Library] Including the jQuery library in a page.
+[Git] Squashing multiple git commits into one commit while rebasing.
+[Git] Committing all changes made inside a directory.
+[PHP] Abstract class.
+[Theming] hook_preprocess_hook()
+[Theming] Difference betweek hook_preprocess_html() and hook_preprocess_page()
+[Theming] Choosing the right base theme for your subtheme.
+[Theming] Theme template suggestion.
+[Twig] Use of Drupal specific Twig functions, e.g. for translation.
+[Coding standard] Empty line between "namespace" and "use" statements.
+[API] Custom code that is going to execute after node insert.
+[API] Custom code that is going to execute after node delete.
+[API] Watchdog logging.
+[API] Block annotation.
+[API] Retrieving settings using the configuration API.
+[Tests] Choosing the right base class.
+[Security] SQL injection.
+[Caching] Cache context and cache tag.
+[Caching] Dynamic page caching.
+[Views] Display, relationship, contextual parameters.
+Configuration update for an existing module.
+Entity display modes.
+Multilingual blocks and menus.
+Free form taxonomy term field.
+Setting up entity specific commenting.
+Structure of a *.info.yml file.
+Structure of a *.routing.yml file.
+
+
+Creating content types with custom fields.
+
+Creating taxonomy vocabularies and linking them to content types.
+
+Creating and configuring views.
+
+Configuring multilingual websites with Drupal 8.
+
+A few topics I recommend you study in detail are:
+
+How to use the Entity API to hook into the lifecycle of creating, updating and deleting entities.
+
+How to use the configuration API to read and write configuration values, including how to handle default configuration.
+
+How to override templates and write preprocess functions, including how to figure out the possible names for templates based on the specificity you want, and which template names take priority when overriding. You should also know how to change the possible name suggestions for a template.
+
+How to create a base theme, including understanding the differences in the included core themes: Stable, Class, Stark, and Bartik.
+
+How to create URL routes in a routing.yml file that point to controller and form classes.
+
+
